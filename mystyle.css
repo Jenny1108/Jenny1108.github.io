@@ -4,23 +4,23 @@ ul{
 	padding:0;
 	overflow:hidden;
 	background-color:#003D79;
-} //bar的背景
+} 
 li{
 	float:left;
-}//靠左
+}
 li.email{
 	float:right
-}//email靠右
+}
 li a{
 	display:block;
 	color:white;
 	text-align:center;
 	padding:10px 14px;
 	text-decoration:none;
-}//bar的文字
+}
 li a:hover:not(.active){
 	background-color:gray;
-}//滑鼠移動到上面會改變顏色
+}
 li a.active{
 	background-color:orange;
-}//email的背景色
+}
